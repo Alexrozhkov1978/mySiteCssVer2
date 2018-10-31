@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+    
+header .header-sitename {
+    font-family: 'Bangers', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px auto;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+}
+    
+header .menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
+}
+
+header .menu li {
+    display: inline;
+}
+
+header .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2874A6;
+    font-family: 'Bangers', sans-serif;
+}
+    
+header .menu li a:hover {
+    text-decoration: underline;
+}
+
+header .banner {
+    min-height: 275px;
+    background-image: url(../img/foto-main-titul.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;   
+}
+    
+header .buttonBanner {
+    padding: 8px 8px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 20px 20px;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+    border-radius: 3px / 100%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: #707B7C; 
+    border: 2px solid #154360;
+}
+
+header .buttonBanner:hover {
+    background-color: #85C1E9;
+    color: white;
+}
+
+header .headers-on-site {
+    font-family: 'Mali', cursive;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+}
+
+main .about-txt-Lombarda {
+    text-indent: 2rem;
+    font-family: 'Mali', cursive;
+    text-align: justify ;
+    font-size: 0.75rem;
+    width: auto;
+    height: 80px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+main .about-txt-Lombarda:focus {
+    height: auto;
+}
+
+main .headers-on-site {
+    font-family: 'Mali', cursive;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+}
+
+main .villaFotoCebalo {
+    border: ridge;
+    position	: relative;
+    left: 10%;
+	width		: 80%;
+	height		: 80%;
+	bottom: 9px;
+}
+
+main    .villaFotoSocol {
+    border: ridge;
+    position	: relative;
+    left: 10%;
+	width		: 80%;
+	height		: 80%;
+	bottom: 9px;
+}
+
+main   .about-villas-txt {
+    text-indent: 2rem;
+    font-family: 'Mali', cursive;
+    text-align: justify ;
+    font-size: 0.75rem;
+    width: auto;
+    height: 80px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+main  .about-villas-txt:focus {
+    height: auto;
+}
+    
+main  .beachesFotoPr {
+    border: ridge;
+    position	: relative;
+    left: 10%;
+	width		: 80%;
+	height		: 80%;
+}
+
+main .beachesFotoSt {
+    border: ridge;
+    position	: relative;
+    left: 10%;
+	width		: 80%;
+	height		: 80%;
+}
+    
+main  .about-txt-beaches {
+    text-indent: 2rem;
+    font-family: 'Mali', cursive;
+    text-align: justify ;
+    font-size: 0.75rem;
+    width: auto;
+    height: 80px;
+    margin: 9px 0px 9px 0px;
+    padding-right: 10px;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+main  .about-txt-beaches:focus {
+    height: auto;
+}
+
+main .all-data-friendlylinks {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 140px 1fr;
+}
+
+main .button-friendlylinks {
+    padding: 5px 5px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 20px 20px;
+    cursor: pointer;
+    background-color: white; 
+    color: #707B7C; 
+    border: 2px solid #154360;   
+    width: 100px;
+    max-height: 28px;
+}
+
+main .button-friendlylinks:hover {
+    background-color: #85C1E9;
+    color: blue;
+}
+
